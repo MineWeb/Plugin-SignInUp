@@ -57,6 +57,16 @@
                             </div>
                         </div>
 					<?php endif; ?>
+                    <?php if (!empty($condition)) { ?>
+                        <div class="form-group">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="condition">
+                                    <?=$Lang->get('USER__CONDITION_1')?> <a href="<?= $condition ?>"> <?= $Lang->get('USER__CONDITION_2')?></a>
+                                </label>
+                            </div>
+                        </div>
+                    <?php } ?>
                     <div class="form-group">
                         <input type="submit" class="btn btn-primary" value="<?= $Lang->get('USER__REGISTER') ?>" />
                     </div>
