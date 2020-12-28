@@ -1,20 +1,17 @@
 {
-  "name":"SignInUp",
-  "admin_menus": {
-
-  },
-  "author":"PHPierre",
-  "version":"1.0.0",
-  "apiID":-1,
-  "useEvents":false,
-  "permissions" : {
-    "available" : [],
-    "default" : {
-      "0" : [],
-      "2" : []
+    "name": "SignInUp",
+    "author": "PHPierre",
+    "version": "1.0.0",
+    "admin_menus": {},
+    "useEvents": false,
+    "permissions": {
+        "available": [],
+        "default": {
+            "0": [],
+            "2": []
+        }
+    },
+    "requirements": {
+        "CMS": "^1.5.8"
     }
-  },
-  "requirements" : {
-    "CMS" : "^1.5.8"
-  }
 }
